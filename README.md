@@ -19,6 +19,9 @@ http://repo.spring.io/release/org/springframework/cloud/spring-cloud-dataflow-se
     https://user-images.githubusercontent.com/32461306/47600330-4c8b5680-d9dd-11e8-837d-fea88ea81b2a.PNG)
 
 5.  Register a Stream App with the App Registry using the Spring Cloud Data Flow Shell.Please run the below steps:
-    a.  app register --name employee-service-app --type app --uri maven://com.gsrk.employee:employee-service:jar:0.0.1-SNAPSHOT
-    b.  stream create --name emp-service-app-log-data --definition 'employee-service-app'
-    c.  stream deploy --name emp-service-app-log-data
+    
+6.  app register --name employee-service-app --type app --uri maven://com.gsrk.employee:employee-service:jar:0.0.1-SNAPSHOT
+
+7.  stream create --name emp-service-app-log-data --definition 'employee-service-app'
+
+8.  stream deploy --name emp-service-app-log-data
