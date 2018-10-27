@@ -9,8 +9,10 @@ http://repo.spring.io/release/org/springframework/cloud/spring-cloud-dataflow-se
 2.  Launch the Data Flow Server.
 
 3.  Data Flow Server is a Spring Boot application, Launch Data Flow Server: java -jar "jar name"
-    
+    Ex: java -jar spring-cloud-dataflow-server-local-1.7.0.BUILD.jar
+     
 4.  Launch the shell: java -jar "jar name"
+    Ex: java -jar spring-cloud-dataflow-shell-1.7.0.BUILD.jar
 
 5.  Register a Stream App with the App Registry using the Spring Cloud Data Flow Shell.Please run the below steps:
 
